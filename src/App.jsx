@@ -13,6 +13,7 @@ function App() {
    return ( 
      <Welcome/>
    )
+   
   return (
     <header>
       <SignedOut>
