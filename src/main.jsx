@@ -11,9 +11,6 @@ import React from "react";
 
 const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_FRONTEND_API_KEY;
 
-
-
-
 if (!import.meta.env.VITE_REACT_APP_CLERK_FRONTEND_API_KEY) {
   throw "Missing Publishable Key"
 }
